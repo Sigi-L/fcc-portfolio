@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="FCC -  Build a Personal Portfolio Webpage -Sigi">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <title>FCC Portfolio - Sigi</title>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div class="w-100">
+
+    <header>
+      <div class="clearfix w-100 bg-info fixed-top">
+        <div class="w-75  m-auto m-0 p-0">
+          <nav class=" navbar navbar-expand-md bg-info navbar-dark p-0">
+            <a class="navbar-brand" href="#about">Sigi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="clearfix bg-secondary ">
+
+      <div class="w-75  m-auto bg-lavender">
+        <div id="about" class="clearfix text-center pt-5">
+          <h1>About</h1>
+          <hr>
+          <div class="row m-0">
+            <div class="col-md">
+              <p>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.</p>
+              <hr>
+              <p>Web Developer - User Experience Designer - Graphic Artis</p>
+            </div>
+            <div class="col-md">
+              <img class="rounded-circle m-auto img-fluid" src="http://img1.ak.crunchyroll.com/i/spire4/9ad5cd9bad3916ff66101b5dca5f9b281468941727_large.jpg" alt="image" width="100em" />
+            </div>
+          </div>
+        </div>
+
+        <div id="portfolio" class="clearfix text-center m-auto">
+          <hr>
+          <h1>Portfolio</h1>
+          <hr>
+          <div class="row m-auto">
+            <div class="col-md p-3 m-0">
+
+              <a href="https://sigi-l.github.io/project-1-paz/" target="_blank">
+                <img class="m-auto img-thumbnail img-fluid w-50" src="https://upload.wikimedia.org/wikipedia/he/5/5c/Pazlogo.svg" alt="image1" />
+              </a>
+            </div>
+            <!--<div class="col-md p-3 m-0">-->
+
+            <!--  <a href="#portfolimo">-->
+            <!--    <img class="m-auto img-thumbnail img-fluid" src="https://www.flowerpicturegallery.com/d/3335-3/peach+tulip+phto.jpg" width="600em" heigth="100%"   alt="image2" />-->
+            <!--  </a>-->
+            <!--</div>-->
+          </div>
+
+
+          <div class="row m-auto">
+            <div class="col-md p-3 m-0">
+
+              <a href="#about">
+                <img class="m-auto img-thumbnail img-fluid" src="https://www.flowerpicturegallery.com/d/3335-3/peach+tulip+phto.jpg" alt="image3" />
+              </a>
+            </div>
+            <div class="col-md p-3 m-0">
+
+              <a href="#about">
+                <img class="m-auto img-thumbnail img-fluid" src="https://www.flowerpicturegallery.com/d/3335-3/peach+tulip+phto.jpg" alt="image4" />
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="contact" class="text-center">
+          <hr>
+          <h1>Contact</h1>
+          <hr>
+
+          <div class="row m-0 p-3 m-auto">
+            <div class="col-md m-0">
+
+              <form action="#">
+                <div class="form-group">
+                  <!--<label for="name">Name:</label>-->
+                  <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                </div>
+                <div class="form-group">
+                  <!--<label for="email">Email:</label>-->
+                  <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                </div>
+                <div class="form-group">
+                  <!--<label for="comment">Comment:</label>-->
+                  <textarea class="form-control" rows="5" id="comment" placeholder="Comments"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary float-left">Send</button>
+              </form>
+
+            </div>
+            <div class="col-md m-0">
+              <p class="text-left">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika
+                here in stunning Toronto... just feel free to drop me a line anytime.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="clearfix">
+        <div class="text-center">
+
+          <div class="clearfix bg-primary">
+            <div class="row w-75 m-auto m-5 p-3">
+              <div class="col-md m-0">
+                <p>ABOUT THIS PAGE</p>
+                <p>Made by Sigi <i class="fa fa-smile-o" style="font-size:24px"></i></p>
+              </div>
+              <div class="col-md m-0">
+                <p>AROUND THE WEB</p>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img class=" m-auto" src="https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-200x200.png" width="30em" alt="facebook" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img class=" m-auto" src="https://www.seeklogo.net/wp-content/uploads/2015/11/twitter-logo.png" alt="twitter" width="30em" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix11 bg-gradient1 p-1">
+            <div class="row w-75 m-auto">
+              <div class="col-md font-italic font-weight-bold">Sigi © 2018. All Rights Reversed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
